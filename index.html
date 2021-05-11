@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Bootstrap-->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
+  <!-- font awesome cdn -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+   integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+   crossorigin="anonymous" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <!--style sheet-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="extra.css">
+  <link rel="stylesheet" href="carousel.css">
+  <title>Udacity</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- NAVBAR-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Udacity</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Courses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Development</a></li>
+                <li><a class="dropdown-item" href="#">Business</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Finance & Accounting</a></li>
+                <li><a class="dropdown-item" href="#">IT & Software</a></li>
+                <li><a class="dropdown-item" href="#">Office Productivity</a></li>
+                <li><a class="dropdown-item" href="#">Personal Development</a></li>
+                <li><a class="dropdown-item" href="#">Marketing</a></li>
+                <li><a class="dropdown-item" href="#">Health & Fitness</a></li>
+                <li><a class="dropdown-item" href="#">Music</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+            </li> -->
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search for a course" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <hr class="solid">
+    <!-- HEADER-->
+    <div class="header">
+      <div class="courses-list">
+        <a href="#">Development</a>
+        <a href="#">Business</a>
+        <a href="#">Finance & Accounting</a>
+        <a href="#">IT & Software</a>
+        <a href="#">Office Productivity</a>
+        <a href="#">Personal Development</a>
+        <a href="#">Design</a>
+        <a href="#">Marketing</a>
+        <a href="#">Health & Fitness</a>
+        <a href="#">Music</a>
+      </div>
+      <div class="header-image">
+        <img src="Images/priscilla-du-preez-XkKCui44iM0-unsplash.jpg" alt="">
+      </div>
+    </div>
+
+    <!-- COURSES-->
+    <div class="courses-section">
+      <h2>What to learn next</h2>
+      <div id="wrapper">
+        <div id="carousel">
+          <div id="content">
+            <a href="#">
+              <div class="card">
+                <img alt="" width="240" height="135"
+                  class="course-card--course-image--2sjYP browse-course-card--image--35hYN"
+                  src="https://img-a.udemycdn.com/course/240x135/2776760_f176_5.jpg?pdh0OLGChhLpORbrT0uW95Q39uiLQgskKIyUHAO1eknn7jqkVJHFf-_h-7B965nB9yNf-Qvk8Y1olwjvLf5HjT1UBHZaNJ2L3__c_aNzIC0D663neNXtUsHvKSR26QDD"
+                  srcset="https://img-a.udemycdn.com/course/240x135/2776760_f176_5.jpg?pdh0OLGChhLpORbrT0uW95Q39uiLQgskKIyUHAO1eknn7jqkVJHFf-_h-7B965nB9yNf-Qvk8Y1olwjvLf5HjT1UBHZaNJ2L3__c_aNzIC0D663neNXtUsHvKSR26QDD 1x, https://img-a.udemycdn.com/course/480x270/2776760_f176_5.jpg?3pocN8Xv6Xuw2forl1CtD1MOFELyzCeGSQ_J7XWAuVVcv-mxrw0fU_n5VarDpsVDUr5IAZmxyX_dY3JqiZVFjj5FFqibVO-WomAoz8VAmDRnkUzomBasj1caTy3lRGPg 2x">
+                <h4>Node.js API Masterclass With Express &
+                  <br>MongoDB
+                </h4>
+                <p>Dr. Angela Yu</p>
+                <div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span>(10,125)</span>
+                </div>
+                <h4>₹499</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="card">
+                <img alt="" width="240" height="135"
+                  class="course-card--course-image--2sjYP browse-course-card--image--35hYN"
+                  src="https://img-b.udemycdn.com/course/240x135/1501104_967d_13.jpg?secure=-MAu8p-lT-NPo90rMETgUQ%3D%3D%2C1620836182"
+                  srcset="https://img-b.udemycdn.com/course/240x135/1501104_967d_13.jpg?secure=-MAu8p-lT-NPo90rMETgUQ%3D%3D%2C1620836182 1x, https://img-a.udemycdn.com/course/480x270/1501104_967d_13.jpg?YmNs3yguGKOmwtRTKsbzxXZsAtOEZW8u73OLIpP0UMwZRoSnAKL1jcHaM9k8uwxTWc8Fh_XdoeZGnwqXxS8RhVpAtrVJUipJcGrpORddRsHJhFsxAqmcs5Yr6Yl3ng6LZg 2x">
+                <h4>JavaScript: The Advanced Concepts (2021)
+                  Learn modern a</h4>
+                <p>Andrei Neagoie</p>
+                <div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span>(8,154)</span>
+                </div>
+                <h4>₹499</h4>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="card">
+                <img alt="" width="240" height="135"
+                  class="course-card--course-image--2sjYP browse-course-card--image--35hYN"
+                  src="https://img-a.udemycdn.com/course/240x135/437398_46c3_9.jpg?6kZWEfCJEE6j2VCpRVRyqrBb9GsJp6YvjYIqZhPDbi93TsW0jBjao3w6o-bW96iSARqYZCLRxLF4WtnRofEYdct1NFQeB6YwnRJ7LVBzr0HoL5CmquwZM7e6yDdb0GI"
+                  srcset="https://img-a.udemycdn.com/course/240x135/437398_46c3_9.jpg?6kZWEfCJEE6j2VCpRVRyqrBb9GsJp6YvjYIqZhPDbi93TsW0jBjao3w6o-bW96iSARqYZCLRxLF4WtnRofEYdct1NFQeB6YwnRJ7LVBzr0HoL5CmquwZM7e6yDdb0GI 1x, https://img-a.udemycdn.com/course/480x270/437398_46c3_9.jpg?0bD9y3iriYWxv_NtYB4awodtzsEmT8TCSeT6G2JypO3oAqxu-A6Vsg22HwpP2b74OkpUDD5kbkdMbV2rD5-yq7cSCVazQb90zE9zGwHQiAxwh6QBHML1DbjGsIM8D-0 2x">
+                <h4>Modern HTML & CSS From The Beginning (Including Sass)</h4>
+                <p>Brad Traversy</p>
+                <div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span>(15,125)</span>
+                </div>
+                <h4>₹499</h4>
+              </div>
+            </a>
+
+
+          </div>
+        </div>
+        <button id="prev">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="none" d="M0 0h24v24H0V0z" />
+            <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+          </svg>
+        </button>
+        <button id="next">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="none" d="M0 0h24v24H0V0z" />
+            <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
