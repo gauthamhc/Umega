@@ -46,6 +46,21 @@ input {
   color: #fff;
 }
 
+/* Login */
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.btn-login {
+  width: 100%;
+  background: rgb(94, 92, 92);
+  color: #fff;
+  margin: 2rem 0;
+  letter-spacing: 2px;
+}
 @media screen and (max-width: 767px) {
   form {
     width: 300px;
