@@ -48,6 +48,7 @@ ul {
 .course-main-page {
   display: flex;
   margin-top: 1.5rem;
+  background: rgb(253, 253, 253);
 }
 
 div.course-intro > * {
