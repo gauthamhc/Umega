@@ -20,6 +20,10 @@ a {
   color: var(--text-color);
 }
 
+.solid {
+  border-top: 3px solid #bbb;
+}
+
 /* ---Header --*/
 .courses-list {
   margin: 1rem 0;
