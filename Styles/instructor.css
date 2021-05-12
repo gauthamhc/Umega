@@ -1,0 +1,63 @@
+.instructor-page {
+  display: flex;
+}
+
+.instructor-details {
+  flex: 70%;
+}
+
+.instructor-header h4 {
+  font-weight: 400;
+}
+.instructor-header p {
+  color: #222;
+  font-style: italic;
+}
+
+.instructor-strength {
+  display: flex;
+  justify-content: flex-start;
+  margin: 2rem 0;
+}
+
+.instructor-strength div {
+  margin-right: 2rem;
+}
+
+.instructor-strength p {
+  color: #222;
+}
+
+.instructor-image {
+  flex: 30%;
+}
+.instructor-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.inst-image img {
+  max-width: 100%;
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.btn-sendMessage {
+  margin: 2rem 0;
+  background: #0f7c90;
+  width: 100%;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.courses-section {
+  margin-top: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .instructor-page {
+    flex-direction: column-reverse;
+  }
+}
