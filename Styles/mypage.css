@@ -1,0 +1,44 @@
+.mypage {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.mystuff {
+  margin-top: 2rem;
+  padding: 1rem 0 0.5rem;
+}
+
+.mystuff p:nth-child(1) {
+  font-weight: bold;
+}
+.fa-discourse {
+  margin-right: 0.7rem;
+}
+.course-detail {
+  border: 1px solid #ccc;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 08px;
+  padding: 0.7rem 2rem;
+  letter-spacing: 1px;
+  max-width: 700px;
+  margin-top: 1rem;
+}
+
+.btn-continue {
+  margin: 2rem 0;
+  background: #0f7c90;
+  width: 100%;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .mypage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mystuff {
+    margin-top: 1rem;
+  }
+}
