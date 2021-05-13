@@ -7,12 +7,43 @@
   height: 100vh;
 }
 
+h6 {
+  text-align: center;
+}
+
+.sign-in {
+  text-align: center;
+}
+.sign-in h5 {
+  margin-top: 1rem;
+}
+
+svg {
+  width: 40px;
+}
+
+.btn-google {
+  display: flex;
+}
+.btn-facebook {
+  display: flex;
+}
+
+.social-btn {
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 form {
   width: 400px;
   padding: 0.2rem 2rem;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   border: none;
+  margin-top: 2rem;
 }
 
 label {
@@ -71,5 +102,19 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  svg {
+    width: 30px;
+  }
+
+  .btn-google {
+    display: block;
+  }
+  .btn-facebook {
+    display: block;
+  }
+
+  .btn-google {
+    font-size: 0.5rem;
   }
 }
