@@ -55,6 +55,9 @@ ul {
   background: rgb(253, 253, 253);
 }
 
+.courses-section {
+  margin-top: 2rem;
+}
 div.course-intro > * {
   margin: 0.8rem 0.2rem;
 }
