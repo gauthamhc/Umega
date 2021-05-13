@@ -8,6 +8,9 @@
   padding: 1rem 0 0.5rem;
 }
 
+.course h4 {
+  margin: 0.5rem 0;
+}
 .mystuff p:nth-child(1) {
   font-weight: bold;
 }
@@ -31,7 +34,9 @@
   color: #fff;
   padding: 1rem 2rem;
 }
-
+.d-flex {
+  margin-right: 1.5rem;
+}
 @media screen and (max-width: 767px) {
   .mypage {
     display: flex;
